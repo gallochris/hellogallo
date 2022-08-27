@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.5">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Chris Andersen and David Sally)">
+
+<title>Chris Gallo - The Numbers Game</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Chris Gallo</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html">projects</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#insights" id="toc-insights" class="nav-link active" data-scroll-target="#insights">Insights</a></li>
+  <li><a href="#truth-beliefs" id="toc-truth-beliefs" class="nav-link" data-scroll-target="#truth-beliefs">Truth &gt; Beliefs</a></li>
+  <li><a href="#dogs-that-dont-bark" id="toc-dogs-that-dont-bark" class="nav-link" data-scroll-target="#dogs-that-dont-bark">Dogs that don’t bark</a></li>
+  <li><a href="#what-doesnt-happen" id="toc-what-doesnt-happen" class="nav-link" data-scroll-target="#what-doesnt-happen">What doesn’t happen</a></li>
+  <li><a href="#avoid-turnovers" id="toc-avoid-turnovers" class="nav-link" data-scroll-target="#avoid-turnovers">Avoid turnovers</a></li>
+  <li><a href="#david-vs-goliath" id="toc-david-vs-goliath" class="nav-link" data-scroll-target="#david-vs-goliath">David vs Goliath</a></li>
+  <li><a href="#failure" id="toc-failure" class="nav-link" data-scroll-target="#failure">Failure</a></li>
+  <li><a href="#weakest-link" id="toc-weakest-link" class="nav-link" data-scroll-target="#weakest-link">Weakest link</a></li>
+  <li><a href="#o-ring-theory" id="toc-o-ring-theory" class="nav-link" data-scroll-target="#o-ring-theory">O-Ring Theory</a></li>
+  <li><a href="#köhler-effect" id="toc-köhler-effect" class="nav-link" data-scroll-target="#köhler-effect">Köhler effect</a></li>
+  <li><a href="#problems" id="toc-problems" class="nav-link" data-scroll-target="#problems">Problems</a></li>
+  <li><a href="#new-tactics" id="toc-new-tactics" class="nav-link" data-scroll-target="#new-tactics">New Tactics</a></li>
+  <li><a href="#future-of-tactics" id="toc-future-of-tactics" class="nav-link" data-scroll-target="#future-of-tactics">Future of Tactics</a></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">Practice</a></li>
+  <li><a href="#quotes" id="toc-quotes" class="nav-link" data-scroll-target="#quotes">Quotes</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Numbers Game</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chris Andersen and David Sally) </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="insights" class="level3">
+<h3 class="anchored" data-anchor-id="insights">Insights</h3>
+<ul>
+<li><p>Information is all over the place, almost too much data</p></li>
+<li><p>The power isn’t in the data, but the insights you pull out it</p></li>
+<li><p>Much tougher than it seems.</p></li>
+</ul>
+</section>
+<section id="truth-beliefs" class="level3">
+<h3 class="anchored" data-anchor-id="truth-beliefs">Truth &gt; Beliefs</h3>
+<ul>
+<li><p>Bill James quote: what is true is more powerful than what you believe</p></li>
+<li><p>Good quote to explain why you should be data driven or evidence driven</p></li>
+</ul>
+</section>
+<section id="dogs-that-dont-bark" class="level3">
+<h3 class="anchored" data-anchor-id="dogs-that-dont-bark">Dogs that don’t bark</h3>
+<ul>
+<li><p>Tackles are a poor way to evaluate defenders</p></li>
+<li><p>It’s about being in the right position, so you don’t have to make a tackle</p></li>
+<li><p>Best defenders are dogs that don’t bark</p></li>
+</ul>
+</section>
+<section id="what-doesnt-happen" class="level3">
+<h3 class="anchored" data-anchor-id="what-doesnt-happen">What doesn’t happen</h3>
+<ul>
+<li><p>Pay attention to what doesn’t happen</p></li>
+<li><p>It’s more important to not concede a goal than it is to score a goal</p></li>
+</ul>
+</section>
+<section id="avoid-turnovers" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-turnovers">Avoid turnovers</h3>
+<ul>
+<li><p>Avoiding turnovers is important to success</p></li>
+<li><p>Passing percentages are useful, but avoiding turnovers is more important</p></li>
+</ul>
+</section>
+<section id="david-vs-goliath" class="level3">
+<h3 class="anchored" data-anchor-id="david-vs-goliath">David vs Goliath</h3>
+<ul>
+<li><p>Gladwell on David vs Goliath: underdogs need to acknowledge their weakness, and adapt or they’ll die</p></li>
+<li><p>Goliath doesn’t need to try something unconventional. Underdogs like David do.</p></li>
+</ul>
+</section>
+<section id="failure" class="level3">
+<h3 class="anchored" data-anchor-id="failure">Failure</h3>
+<ul>
+<li><p>Failure is often only accepted if you do it in a recognizable way</p></li>
+<li><p>If it’s unconventional, more criticism for failure</p></li>
+<li><p>It’s safe to fail in a conventional manner</p></li>
+</ul>
+</section>
+<section id="weakest-link" class="level3">
+<h3 class="anchored" data-anchor-id="weakest-link">Weakest link</h3>
+<ul>
+<li><p>Success in soccer is more about the weakest link, avoiding what you do badly</p></li>
+<li><p>In basketball, one player makes up 20% of players on the court for you team</p></li>
+<li><p>In soccer, it’s just 9% - there are superstars, but better to pay attention to a team’s weakest link</p></li>
+</ul>
+</section>
+<section id="o-ring-theory" class="level3">
+<h3 class="anchored" data-anchor-id="o-ring-theory">O-Ring Theory</h3>
+<ul>
+<li><p>One small manufacturing part can be a multi-million dollar disaster</p></li>
+<li><p>Pay attention to the details, and to your weakest link</p></li>
+</ul>
+</section>
+<section id="köhler-effect" class="level3">
+<h3 class="anchored" data-anchor-id="köhler-effect">Köhler effect</h3>
+<ul>
+<li><p>When a person works harder as a member of a group than when working alone</p></li>
+<li><p>Example from a seamstress lab where they stop paying by individual and start paying by group, and it helps produce more fabric/clothes</p></li>
+<li><p>Same is true in sports</p></li>
+</ul>
+</section>
+<section id="problems" class="level3">
+<h3 class="anchored" data-anchor-id="problems">Problems</h3>
+<ul>
+<li><p>Is it a tough problem, or the same problem every year?</p></li>
+<li><p>Measure of success is that you’re making progress, not the same problem over and over</p></li>
+</ul>
+</section>
+<section id="new-tactics" class="level3">
+<h3 class="anchored" data-anchor-id="new-tactics">New Tactics</h3>
+<ul>
+<li><p>Organizational: only two paths, either your more innovative or spend more money</p></li>
+<li><p>The game is decided in the margins, where light and dark meet</p></li>
+</ul>
+</section>
+<section id="future-of-tactics" class="level3">
+<h3 class="anchored" data-anchor-id="future-of-tactics">Future of Tactics</h3>
+<ul>
+<li><p>A team of 150 people (organization) is the future of tactics</p></li>
+<li><p>Example is how teams are tracking players in space, their every movements, especially when they don’t have the ball</p></li>
+</ul>
+</section>
+<section id="practice" class="level3">
+<h3 class="anchored" data-anchor-id="practice">Practice</h3>
+<ul>
+<li><p>The apprenticed is a quite distinct person from the anointed</p></li>
+<li><p>A violinist asked how many hours I should practice, and his mentor said, ‘It doesn’t really matter how long. If you practice with your fingers, no amount is enough. If you practice with your head, two hours is plenty.’</p></li>
+</ul>
+</section>
+<section id="quotes" class="level3">
+<h3 class="anchored" data-anchor-id="quotes">Quotes</h3>
+<ul>
+<li><p>We play leftist soccer, everyone does everything - Pep</p></li>
+<li><p>There are two routes to success in soccer, we have found. One is being good. The other is being lucky. You need both to win a championship</p></li>
+<li><p>The great tragedy of science, the slaying of a beautiful hypothesis by an ugly fact</p></li>
+<li><p>The ball is round, so that the game can change direction</p></li>
+<li><p>Success is determined not just by what you do well but what you don’t do badly.</p></li>
+<li><p>The idea that sacking managers is a panacea for a team’s ills is a placebo. It is an expensive illusion</p></li>
+<li><p>2 strategies for better soccer: either being more efficient or being more innovative than your opponents</p></li>
+<li><p>Both efficiency and innovation should bring more attention to the darker, defensive side of the pitch</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">2022 | chris gallo | built using quarto</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/gallochris">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:chris@hellogallo.com">
+      <i class="bi bi-mailbox" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

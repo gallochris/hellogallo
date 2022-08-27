@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.5">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kevin Wagonfoot (Charlie Munger)">
+
+<title>Chris Gallo - Mental Models</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Chris Gallo</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html">projects</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fast-slow-thinking" id="toc-fast-slow-thinking" class="nav-link active" data-scroll-target="#fast-slow-thinking">Fast + Slow Thinking</a></li>
+  <li><a href="#loss-risk-aversion" id="toc-loss-risk-aversion" class="nav-link" data-scroll-target="#loss-risk-aversion">Loss + Risk Aversion</a></li>
+  <li><a href="#confirmation-bias" id="toc-confirmation-bias" class="nav-link" data-scroll-target="#confirmation-bias">Confirmation Bias</a></li>
+  <li><a href="#paradox-of-choice" id="toc-paradox-of-choice" class="nav-link" data-scroll-target="#paradox-of-choice">Paradox of Choice</a></li>
+  <li><a href="#hanlons-razor" id="toc-hanlons-razor" class="nav-link" data-scroll-target="#hanlons-razor">Hanlon’s Razor</a></li>
+  <li><a href="#ad-hominem" id="toc-ad-hominem" class="nav-link" data-scroll-target="#ad-hominem">Ad Hominem</a></li>
+  <li><a href="#entropy" id="toc-entropy" class="nav-link" data-scroll-target="#entropy">Entropy</a></li>
+  <li><a href="#theory-of-influence" id="toc-theory-of-influence" class="nav-link" data-scroll-target="#theory-of-influence">Theory of Influence</a></li>
+  <li><a href="#occams-razor" id="toc-occams-razor" class="nav-link" data-scroll-target="#occams-razor">Occam’s Razor</a></li>
+  <li><a href="#murphys-and-hofstadters-law" id="toc-murphys-and-hofstadters-law" class="nav-link" data-scroll-target="#murphys-and-hofstadters-law">Murphy’s and Hofstadter’s Law</a></li>
+  <li><a href="#counterfactual-thinking" id="toc-counterfactual-thinking" class="nav-link" data-scroll-target="#counterfactual-thinking">Counterfactual Thinking</a></li>
+  <li><a href="#parkinsons-law" id="toc-parkinsons-law" class="nav-link" data-scroll-target="#parkinsons-law">Parkinson’s Law</a></li>
+  <li><a href="#lateral-thinking" id="toc-lateral-thinking" class="nav-link" data-scroll-target="#lateral-thinking">Lateral Thinking</a></li>
+  <li><a href="#inversion" id="toc-inversion" class="nav-link" data-scroll-target="#inversion">Inversion</a></li>
+  <li><a href="#addition-through-subtraction" id="toc-addition-through-subtraction" class="nav-link" data-scroll-target="#addition-through-subtraction">Addition Through Subtraction</a></li>
+  <li><a href="#anecdotal-reasoning" id="toc-anecdotal-reasoning" class="nav-link" data-scroll-target="#anecdotal-reasoning">Anecdotal Reasoning</a></li>
+  <li><a href="#correlation-vs.-causation" id="toc-correlation-vs.-causation" class="nav-link" data-scroll-target="#correlation-vs.-causation">Correlation vs.&nbsp;Causation</a></li>
+  <li><a href="#tactics-vs.-strategy" id="toc-tactics-vs.-strategy" class="nav-link" data-scroll-target="#tactics-vs.-strategy">Tactics vs.&nbsp;Strategy</a></li>
+  <li><a href="#third-story" id="toc-third-story" class="nav-link" data-scroll-target="#third-story">Third Story</a></li>
+  <li><a href="#zero-sum-game-theory" id="toc-zero-sum-game-theory" class="nav-link" data-scroll-target="#zero-sum-game-theory">Zero Sum Game Theory</a></li>
+  <li><a href="#framing-anchoring-and-ordering" id="toc-framing-anchoring-and-ordering" class="nav-link" data-scroll-target="#framing-anchoring-and-ordering">Framing, Anchoring, and Ordering</a></li>
+  <li><a href="#nash-equilibrium" id="toc-nash-equilibrium" class="nav-link" data-scroll-target="#nash-equilibrium">Nash Equilibrium</a></li>
+  <li><a href="#dunning-kruger-effect" id="toc-dunning-kruger-effect" class="nav-link" data-scroll-target="#dunning-kruger-effect">Dunning-Kruger Effect</a></li>
+  <li><a href="#spacing-effect" id="toc-spacing-effect" class="nav-link" data-scroll-target="#spacing-effect">Spacing Effect</a></li>
+  <li><a href="#deliberate-practice" id="toc-deliberate-practice" class="nav-link" data-scroll-target="#deliberate-practice">Deliberate Practice</a></li>
+  <li><a href="#gamifaction" id="toc-gamifaction" class="nav-link" data-scroll-target="#gamifaction">Gamifaction</a></li>
+  <li><a href="#opportunity-cost" id="toc-opportunity-cost" class="nav-link" data-scroll-target="#opportunity-cost">Opportunity Cost</a></li>
+  <li><a href="#pygmalion-effect" id="toc-pygmalion-effect" class="nav-link" data-scroll-target="#pygmalion-effect">Pygmalion Effect</a></li>
+  <li><a href="#peter-principle" id="toc-peter-principle" class="nav-link" data-scroll-target="#peter-principle">Peter Principle</a></li>
+  <li><a href="#circle-of-competence" id="toc-circle-of-competence" class="nav-link" data-scroll-target="#circle-of-competence">Circle of Competence</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mental Models</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kevin Wagonfoot (Charlie Munger) </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="fast-slow-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="fast-slow-thinking">Fast + Slow Thinking</h3>
+<ul>
+<li><p>When information is scarce, you jump to conclusions</p></li>
+<li><p>Slow thinking is critical and problem solving</p></li>
+</ul>
+</section>
+<section id="loss-risk-aversion" class="level3">
+<h3 class="anchored" data-anchor-id="loss-risk-aversion">Loss + Risk Aversion</h3>
+<ul>
+<li><p>People tend to prefer avoiding loss instead of acquiring similar gains</p></li>
+<li><p>Risk means you’re operating with incomplete information</p></li>
+</ul>
+</section>
+<section id="confirmation-bias" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation-bias">Confirmation Bias</h3>
+<ul>
+<li><p>Human tendency to look for facts and evidence to support your existing beliefs</p></li>
+<li><p>People put a lot less effort into picking apart evidence that confirms what they already believe</p></li>
+</ul>
+</section>
+<section id="paradox-of-choice" class="level3">
+<h3 class="anchored" data-anchor-id="paradox-of-choice">Paradox of Choice</h3>
+<ul>
+<li><p>Having too many choices can be a bad thing</p></li>
+<li><p>Making choices take time and mental energy, often it is better to limit options</p></li>
+</ul>
+</section>
+<section id="hanlons-razor" class="level3">
+<h3 class="anchored" data-anchor-id="hanlons-razor">Hanlon’s Razor</h3>
+<ul>
+<li><p>Always try to stay above an instant emotional response, especially before you know the other person’s true intentions</p></li>
+<li><p>Never attribute to malice that which is adequately explained by stupidity</p></li>
+</ul>
+</section>
+<section id="ad-hominem" class="level3">
+<h3 class="anchored" data-anchor-id="ad-hominem">Ad Hominem</h3>
+<ul>
+<li><p>Practice of insulting an opponent personally instead of arguing their position</p></li>
+<li><p>I always cheer up immensely if an attack is particularly wounding because I think, well, if they attack one personally, it means they have not a single political argument left.</p></li>
+</ul>
+</section>
+<section id="entropy" class="level3">
+<h3 class="anchored" data-anchor-id="entropy">Entropy</h3>
+<ul>
+<li><p>Without investing energy things will tend to become more disordered over time</p></li>
+<li><p>You can’t unscramble egg</p></li>
+</ul>
+</section>
+<section id="theory-of-influence" class="level3">
+<h3 class="anchored" data-anchor-id="theory-of-influence">Theory of Influence</h3>
+<ul>
+<li><p>Six principles</p></li>
+<li><p>Reciprocity, scaricity, authority, consistency, liking, and social proof</p></li>
+</ul>
+</section>
+<section id="occams-razor" class="level3">
+<h3 class="anchored" data-anchor-id="occams-razor">Occam’s Razor</h3>
+<ul>
+<li><p>The simplest solution is probably the correct one</p></li>
+<li><p>The explanation requiring the fewest assumptions is most likely to be correct</p></li>
+</ul>
+</section>
+<section id="murphys-and-hofstadters-law" class="level3">
+<h3 class="anchored" data-anchor-id="murphys-and-hofstadters-law">Murphy’s and Hofstadter’s Law</h3>
+<ul>
+<li><p>Murphy’s Law: anything that can go wrong will go wrong</p></li>
+<li><p>Hofstadter’s Law: It always takes longer than you expect, even when you take into account this law</p></li>
+</ul>
+</section>
+<section id="counterfactual-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="counterfactual-thinking">Counterfactual Thinking</h3>
+<ul>
+<li><p>Every time you say to yourself “if only i had done…” or “what if…” you are engaging in thinking that is counter to the facts</p></li>
+<li><p>Because the arrow of time only points in one direction it is impossible to realize these different choices</p></li>
+</ul>
+</section>
+<section id="parkinsons-law" class="level3">
+<h3 class="anchored" data-anchor-id="parkinsons-law">Parkinson’s Law</h3>
+<ul>
+<li><p>Without careful planning tasks will expand in scope and complexity until they are too difficult to accomplish</p></li>
+<li><p>Work expands so as to fill the time available for its completion.</p></li>
+</ul>
+</section>
+<section id="lateral-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="lateral-thinking">Lateral Thinking</h3>
+<ul>
+<li><p>Look for new ways to approach a problem to find novel solutions</p></li>
+<li><p>Do not seek to follow in the footsteps of the men of old; seek what they sought</p></li>
+</ul>
+</section>
+<section id="inversion" class="level3">
+<h3 class="anchored" data-anchor-id="inversion">Inversion</h3>
+<ul>
+<li><p>Instead of setting goals from what you want, try to do the opposite and set anti-goals for what you are trying to avoid</p></li>
+<li><p>A lot of success in life and business comes from knowing what you want to avoid</p></li>
+</ul>
+</section>
+<section id="addition-through-subtraction" class="level3">
+<h3 class="anchored" data-anchor-id="addition-through-subtraction">Addition Through Subtraction</h3>
+<ul>
+<li><p>Being creative is involved in repackaging or reimagining a great idea, simplifying it or applying it to a different purpose</p></li>
+<li><p>The soul grows by subtraction, not addition</p></li>
+</ul>
+</section>
+<section id="anecdotal-reasoning" class="level3">
+<h3 class="anchored" data-anchor-id="anecdotal-reasoning">Anecdotal Reasoning</h3>
+<ul>
+<li><p>Anecdotal evidence is the story someone tells that provides information or a conclusion</p></li>
+<li><p>The problem with anecdotal evidence is that it takes a single point of view into account</p></li>
+</ul>
+</section>
+<section id="correlation-vs.-causation" class="level3">
+<h3 class="anchored" data-anchor-id="correlation-vs.-causation">Correlation vs.&nbsp;Causation</h3>
+<ul>
+<li><p>Correlation is a mutual relationship between two or more things</p></li>
+<li><p>Causation is a relationship of dependence between two or more things</p></li>
+<li><p>Correlation does not equal causation</p></li>
+</ul>
+</section>
+<section id="tactics-vs.-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="tactics-vs.-strategy">Tactics vs.&nbsp;Strategy</h3>
+<ul>
+<li><p>Strategy describes the goal and how to reach it</p></li>
+<li><p>Tactics are the specific actions to take on the way to the goal</p></li>
+</ul>
+</section>
+<section id="third-story" class="level3">
+<h3 class="anchored" data-anchor-id="third-story">Third Story</h3>
+<ul>
+<li><p>Putting yourself in the shoes of a neutral, third-party, such as a mediator and telling a story that all parties can agree upon</p></li>
+<li><p>When you voice your disagreement, begin by talking about what you have in common with the person you are arguing with</p></li>
+</ul>
+</section>
+<section id="zero-sum-game-theory" class="level3">
+<h3 class="anchored" data-anchor-id="zero-sum-game-theory">Zero Sum Game Theory</h3>
+<ul>
+<li><p>When one player wins, his opponent loses an equal amount</p></li>
+<li><p>In a zero-sum game, the problem is entirely one of distribution, not at all one of production</p></li>
+</ul>
+</section>
+<section id="framing-anchoring-and-ordering" class="level3">
+<h3 class="anchored" data-anchor-id="framing-anchoring-and-ordering">Framing, Anchoring, and Ordering</h3>
+<ul>
+<li><p>Framing is the way in which something is defined</p></li>
+<li><p>Anchoring deals with setting a reference point for comparison</p></li>
+<li><p>Ordering describes how the order that different choices are listed informs a customer’s perception of value</p></li>
+</ul>
+</section>
+<section id="nash-equilibrium" class="level3">
+<h3 class="anchored" data-anchor-id="nash-equilibrium">Nash Equilibrium</h3>
+<ul>
+<li>Assuming that all the players know the rational move that every other player will make, and they will also make a rational move, the game will reach a state of equilibrium</li>
+</ul>
+</section>
+<section id="dunning-kruger-effect" class="level3">
+<h3 class="anchored" data-anchor-id="dunning-kruger-effect">Dunning-Kruger Effect</h3>
+<ul>
+<li><p>Those who have low ability do not have the understanding to see they are lacking ability</p></li>
+<li><p>Conversely, those who performed the best underestimate their ability, assuming that everyone is able to perform at a similar level</p></li>
+<li><p>Those who know do not speak, those who speak do not know</p></li>
+</ul>
+</section>
+<section id="spacing-effect" class="level3">
+<h3 class="anchored" data-anchor-id="spacing-effect">Spacing Effect</h3>
+<ul>
+<li><p>Spacing out repetitions over time produces better recall than doing the same number of repetitions over a shorter duration</p></li>
+<li><p>Studying is like rowing a boat upstream, not moving forward is to fall behind</p></li>
+</ul>
+</section>
+<section id="deliberate-practice" class="level3">
+<h3 class="anchored" data-anchor-id="deliberate-practice">Deliberate Practice</h3>
+<ul>
+<li><p>Method to acheive top performance in a given field</p></li>
+<li><p>10,000 hours rule</p></li>
+</ul>
+</section>
+<section id="gamifaction" class="level3">
+<h3 class="anchored" data-anchor-id="gamifaction">Gamifaction</h3>
+<ul>
+<li>Adding a level of competition to something that is already being done in order to improve the outcome</li>
+</ul>
+</section>
+<section id="opportunity-cost" class="level3">
+<h3 class="anchored" data-anchor-id="opportunity-cost">Opportunity Cost</h3>
+<ul>
+<li><p>Opportunity cost is the tradeoff you make when you make a choice</p></li>
+<li><p>the idea that once you spend your money on something, you can’t spend it again on something else</p></li>
+</ul>
+</section>
+<section id="pygmalion-effect" class="level3">
+<h3 class="anchored" data-anchor-id="pygmalion-effect">Pygmalion Effect</h3>
+<ul>
+<li><p>Higher expectations lead to better performance</p></li>
+<li><p>Leaders should make sure people can emerge and grow</p></li>
+</ul>
+</section>
+<section id="peter-principle" class="level3">
+<h3 class="anchored" data-anchor-id="peter-principle">Peter Principle</h3>
+<ul>
+<li>Satirical concept that individuals within a large organization will continue to be promoted until they reach a job level they are unable to effectively perform</li>
+</ul>
+</section>
+<section id="circle-of-competence" class="level3">
+<h3 class="anchored" data-anchor-id="circle-of-competence">Circle of Competence</h3>
+<ul>
+<li><p>Focus on areas of knowledge and ignore areas you don’t understand</p></li>
+<li><p>The important thing is not how big the circle is, the important thing is staying inside the circle</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">2022 | chris gallo | built using quarto</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/gallochris">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:chris@hellogallo.com">
+      <i class="bi bi-mailbox" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

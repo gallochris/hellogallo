@@ -1,0 +1,13 @@
+---
+title: "hello!"
+---
+
+My name is Chris, and I help teams build useful software. My job is to understand what customers and teammates are trying to do, and guide them to progress.
+
+I'm the former head of customer support at [Highrise](https://medium.com/@natekontny/moving-on-from-highrise-94fb26df67e7). Our small team shipped product improvements, self serve tools, and documentation to help hundreds of thousands of people do business across the world. 
+
+Today, I'm a product manager at [Zipline](https://getzipline.com/). Our team helps retail employees do their job. Over a quarter of a million people use Zipline to improve store execution. 
+
+* * * 
+
+I work remotely from my home in Charlotte, North Carolina. You can find me on [GitHub](https://github.com/gallochris) or send me an email at [chris@hellogallo.com](mailto: chris@hellogallo.com). 

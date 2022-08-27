@@ -1,0 +1,61 @@
+---
+title: "Maxims for Thinking Analytically"
+author: "Dan Levy (Richard Zeckhauser)"
+format: html
+---
+
+#### Thinking Straight
+
+- When you're having trouble, go to an extreme case or simple case
+
+- Don't take refuge in complexity
+
+- When trying to understand a complex situation, think of an everyday analogue
+
+#### Tackling Uncertainty 
+
+- The world is much more uncertain than you think 
+
+- Think probabilistically about the world
+
+- Uncertainty is the friend of the status quo 
+
+### Decisions 
+
+- Good decisions sometimes have poor outcomes 
+
+- Some good decisions have a high probability of a bad outcome
+
+- Weight errors as commission the same as errors of omission
+
+### Decisions
+
+- Don't be limited by the options in front you 
+
+- Information is only valuable to you if it can change your decision
+
+### Understanding Policy 
+
+- Long division is the most important tool for policy (bang for buck)
+
+- Elasticities are a powerful tool for understanding many important things
+
+- Heterogeneity in the populations explains many things (subgroups)
+
+- Capitalize on complementaries 
+
+### Living Fully 
+
+- Strive hard to avoid envy - your friend's success is your gain 
+
+- Do your best to banish regret (wasteful emotion)
+
+- Make pleasure-enducing decisions long in advance 
+
+### Life 
+
+- There are some things you just don't want to know 
+
+- If you focus on people's shortcomings, you'll always be disappointed
+
+- Practice asynchronous reciprocity 

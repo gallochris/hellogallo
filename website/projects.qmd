@@ -1,0 +1,15 @@
+---
+title: "Projects"
+---
+
+### data 
+-   [caRolina](https://github.com/gallochris/R_scraps): sharing code while learning how to use [R](https://www.r-project.org/).
+-   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
+    men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
+
+### books
+-   [book notes](/books.html): list of notes from books I've found useful. 
+
+### archives
+-   [blog.hotdogsandeggs.com](https://blog.hotdogsandeggs.com/): past writing and thinking, updated not so often any longer. 
+-   [Dale Carnegie](/dale.html): all 30 principles from *How to Win Friends and Influence People*.

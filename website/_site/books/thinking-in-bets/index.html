@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.5">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Annie Duke">
+
+<title>Chris Gallo - Thinking in Bets</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Chris Gallo</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html">projects</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#poker-not-chess" id="toc-poker-not-chess" class="nav-link active" data-scroll-target="#poker-not-chess">Poker not chess</a></li>
+  <li><a href="#resulting" id="toc-resulting" class="nav-link" data-scroll-target="#resulting">Resulting</a></li>
+  <li><a href="#dr.-strangelove" id="toc-dr.-strangelove" class="nav-link" data-scroll-target="#dr.-strangelove">Dr.&nbsp;Strangelove</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#reality" id="toc-reality" class="nav-link" data-scroll-target="#reality">Reality</a></li>
+  <li><a href="#all-decisions-are-bets" id="toc-all-decisions-are-bets" class="nav-link" data-scroll-target="#all-decisions-are-bets">All decisions are bets</a></li>
+  <li><a href="#alter-beliefs" id="toc-alter-beliefs" class="nav-link" data-scroll-target="#alter-beliefs">Alter beliefs</a></li>
+  <li><a href="#opposite" id="toc-opposite" class="nav-link" data-scroll-target="#opposite">Opposite</a></li>
+  <li><a href="#why-be-objective" id="toc-why-be-objective" class="nav-link" data-scroll-target="#why-be-objective">Why be Objective?</a></li>
+  <li><a href="#how-not-what" id="toc-how-not-what" class="nav-link" data-scroll-target="#how-not-what">How not What</a></li>
+  <li><a href="#uncertainty" id="toc-uncertainty" class="nav-link" data-scroll-target="#uncertainty">Uncertainty</a></li>
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem">The Problem</a></li>
+  <li><a href="#strive-for-this" id="toc-strive-for-this" class="nav-link" data-scroll-target="#strive-for-this">Strive for this</a></li>
+  <li><a href="#what-to-ask" id="toc-what-to-ask" class="nav-link" data-scroll-target="#what-to-ask">What to ask</a></li>
+  <li><a href="#more-s-to-ask" id="toc-more-s-to-ask" class="nav-link" data-scroll-target="#more-s-to-ask">More ?s to ask</a></li>
+  <li><a href="#dont-be-a-outcome-junkie" id="toc-dont-be-a-outcome-junkie" class="nav-link" data-scroll-target="#dont-be-a-outcome-junkie">Don’t be a outcome junkie</a></li>
+  <li><a href="#cudos" id="toc-cudos" class="nav-link" data-scroll-target="#cudos">CUDOS</a></li>
+  <li><a href="#communication-with-a-trust-group" id="toc-communication-with-a-trust-group" class="nav-link" data-scroll-target="#communication-with-a-trust-group">Communication with a trust group</a></li>
+  <li><a href="#decision-making-help" id="toc-decision-making-help" class="nav-link" data-scroll-target="#decision-making-help">Decision making help</a></li>
+  <li><a href="#the-past" id="toc-the-past" class="nav-link" data-scroll-target="#the-past">The past</a></li>
+  <li><a href="#consequences" id="toc-consequences" class="nav-link" data-scroll-target="#consequences">Consequences</a></li>
+  <li><a href="#in-the-moment" id="toc-in-the-moment" class="nav-link" data-scroll-target="#in-the-moment">In the moment</a></li>
+  <li><a href="#regret" id="toc-regret" class="nav-link" data-scroll-target="#regret">Regret</a></li>
+  <li><a href="#think-like-this" id="toc-think-like-this" class="nav-link" data-scroll-target="#think-like-this">Think like this</a></li>
+  <li><a href="#how-we-got-there" id="toc-how-we-got-there" class="nav-link" data-scroll-target="#how-we-got-there">How we got there</a></li>
+  <li><a href="#long-view" id="toc-long-view" class="nav-link" data-scroll-target="#long-view">Long view</a></li>
+  <li><a href="#what-is-wrong" id="toc-what-is-wrong" class="nav-link" data-scroll-target="#what-is-wrong">What is wrong?</a></li>
+  <li><a href="#benefits-of-scouting-the-future" id="toc-benefits-of-scouting-the-future" class="nav-link" data-scroll-target="#benefits-of-scouting-the-future">Benefits of scouting the future</a></li>
+  <li><a href="#expected-value-example" id="toc-expected-value-example" class="nav-link" data-scroll-target="#expected-value-example">Expected value: Example</a></li>
+  <li><a href="#backcasting" id="toc-backcasting" class="nav-link" data-scroll-target="#backcasting">Backcasting</a></li>
+  <li><a href="#premortem" id="toc-premortem" class="nav-link" data-scroll-target="#premortem">Premortem</a></li>
+  <li><a href="#negative-visualization" id="toc-negative-visualization" class="nav-link" data-scroll-target="#negative-visualization">Negative visualization</a></li>
+  <li><a href="#tree-metaphor" id="toc-tree-metaphor" class="nav-link" data-scroll-target="#tree-metaphor">Tree metaphor</a></li>
+  <li><a href="#outcomes-and-hindsight" id="toc-outcomes-and-hindsight" class="nav-link" data-scroll-target="#outcomes-and-hindsight">Outcomes and Hindsight</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Thinking in Bets</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Annie Duke </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="poker-not-chess" class="level3">
+<h3 class="anchored" data-anchor-id="poker-not-chess">Poker not chess</h3>
+<ul>
+<li><p>Life is more like poker, skill and luck</p></li>
+<li><p>Chess is all skill.</p></li>
+</ul>
+</section>
+<section id="resulting" class="level3">
+<h3 class="anchored" data-anchor-id="resulting">Resulting</h3>
+<ul>
+<li><p>A good decision does not mean a good outcome and a bad decision does not mean bad a outcome</p></li>
+<li><p>Run a red light and be fine</p></li>
+<li><p>Go on green and get in accident.</p></li>
+</ul>
+</section>
+<section id="dr.-strangelove" class="level3">
+<h3 class="anchored" data-anchor-id="dr.-strangelove">Dr.&nbsp;Strangelove</h3>
+<ul>
+<li><p>Game theory: making decision under conditions of uncertainty overtime</p></li>
+<li><p>The world doesn’t easily reveal the objective truth</p></li>
+<li><p>Uncertainty can work a lot of mischief.</p></li>
+</ul>
+</section>
+<section id="process" class="level3">
+<h3 class="anchored" data-anchor-id="process">Process</h3>
+<ul>
+<li><p>What makes a good decision is a good process</p></li>
+<li><p>A process that accurately represents our current state of knowledge, which is always some variance of I don’t know</p></li>
+<li><p>More experience just means you can make a better guess</p></li>
+</ul>
+</section>
+<section id="reality" class="level3">
+<h3 class="anchored" data-anchor-id="reality">Reality</h3>
+<ul>
+<li><p>We don’t perceive the world objectively, but our goal should be to try</p></li>
+<li><p>Get comfortable about not being sure and saying I don’t know</p></li>
+<li><p>A loss feels twice as bad as a win feels good</p></li>
+</ul>
+</section>
+<section id="all-decisions-are-bets" class="level3">
+<h3 class="anchored" data-anchor-id="all-decisions-are-bets">All decisions are bets</h3>
+<ul>
+<li><p>Buying a house, parenting, choose steak over chicken, going to the movies</p></li>
+<li><p>We can only make our best guess, given what we know and what we don’t know, at what the future will look like</p></li>
+</ul>
+</section>
+<section id="alter-beliefs" class="level3">
+<h3 class="anchored" data-anchor-id="alter-beliefs">Alter beliefs</h3>
+<ul>
+<li><p>Instead of alternating our beliefs to fit new information, we do the opposite, altering our interpretation of that information to fit our beliefs</p></li>
+<li><p>Our preexisting beliefs influence the way we experience the world</p></li>
+<li><p>Those beliefs are formed in not an orderly way, which means mischief is in our decision making</p></li>
+</ul>
+</section>
+<section id="opposite" class="level3">
+<h3 class="anchored" data-anchor-id="opposite">Opposite</h3>
+<ul>
+<li><p>The better you are with numbers, the better you are spinning those numbers to conform and support your beliefs</p></li>
+<li><p>We bet on our beliefs, but don’t vet those beliefs well before we form them</p></li>
+<li><p>We stubbornly refuse to update our beliefs. And being smart doesn’t help, it makes it <em>worse</em></p></li>
+</ul>
+</section>
+<section id="why-be-objective" class="level3">
+<h3 class="anchored" data-anchor-id="why-be-objective">Why be Objective?</h3>
+<ul>
+<li><p>Because the more objective we are, the more accurate our beliefs become</p></li>
+<li><p>Almost nothing is black and white, 0 or 100, and that’s pretty good philosophy for living</p></li>
+</ul>
+</section>
+<section id="how-not-what" class="level3">
+<h3 class="anchored" data-anchor-id="how-not-what">How not What</h3>
+<ul>
+<li><p>Better served as communicators and decision-makers if we thought less about whether we are confident in our beliefs and more about <strong>how confident</strong> we are in those beliefs</p></li>
+<li><p>This way our expression of confidence would capture all the shades of grey in-between</p></li>
+<li><p>It’s a spectrum, 76% to 63% is much better than right or wrong.</p></li>
+</ul>
+</section>
+<section id="uncertainty" class="level3">
+<h3 class="anchored" data-anchor-id="uncertainty">Uncertainty</h3>
+<ul>
+<li><p>Acknowledging uncertainty is the first step in measuring and narrowing it</p></li>
+<li><p>Any decision is a bet on what will likely create the most favorable future for us.</p></li>
+<li><p>Sometimes things happen because of the other form of uncertainty - LUCK</p></li>
+</ul>
+</section>
+<section id="the-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem">The Problem</h3>
+<ul>
+<li><p>The way things turn out could be the result of our decisions, luck, or a combination of the two</p></li>
+<li><p>Quote: We must believe in luck, for how else can we explain the success of those we don’t like</p></li>
+<li><p>Golden rule of habit change - keep the old cue, deliver the old reward, but insert a new routine</p></li>
+</ul>
+</section>
+<section id="strive-for-this" class="level3">
+<h3 class="anchored" data-anchor-id="strive-for-this">Strive for this</h3>
+<ul>
+<li><p>Be a better credit-giver than your peers</p></li>
+<li><p>Be more willing than others to admit mistakes</p></li>
+<li><p>Be more willing to explore reasons for an outcome with an open mind</p></li>
+<li><p>And even, and especially, if that might cast you in a bad light or shine a good light on someone else</p></li>
+</ul>
+</section>
+<section id="what-to-ask" class="level3">
+<h3 class="anchored" data-anchor-id="what-to-ask">What to ask</h3>
+<ul>
+<li><p>Why might my belief not be true?</p></li>
+<li><p>What other evidence might be out there bearing on my belief?</p></li>
+<li><p>Are there similar areas I can look toward to gauge whether similar beliefs to mine are true?</p></li>
+</ul>
+</section>
+<section id="more-s-to-ask" class="level3">
+<h3 class="anchored" data-anchor-id="more-s-to-ask">More ?s to ask</h3>
+<ul>
+<li><p>What sources of information could I have missed or minimized on the way to reaching my belief?</p></li>
+<li><p>What are the reasons someone else could have a different belief, what’s their support, and why might they be right instead of me?</p></li>
+<li><p>What other perspectives are there as to why things turned out the way they did?</p></li>
+</ul>
+</section>
+<section id="dont-be-a-outcome-junkie" class="level3">
+<h3 class="anchored" data-anchor-id="dont-be-a-outcome-junkie">Don’t be a outcome junkie</h3>
+<ul>
+<li><p>You’re going to lose a lot, and win a lot</p></li>
+<li><p>You can always, however, try to make a good bet</p></li>
+<li><p>Learn how to navigate the uncertain future because you’ll never be sure of the future</p></li>
+</ul>
+</section>
+<section id="cudos" class="level3">
+<h3 class="anchored" data-anchor-id="cudos">CUDOS</h3>
+<ul>
+<li><p>Principles for a good trust group</p></li>
+<li><p>Communism: be a data sharer, more data you share leads to better assessment</p></li>
+<li><p>Rashomon effect: two accounts of same event, but versions are dramatically different because they’re informed by different facts and perspectives</p></li>
+<li><p>You can’t assume your version of the story is accurate or complete</p></li>
+<li><p>Universalism: don’t shoot the message, imagine if same info came from person you didn’t like</p></li>
+<li><p>Both of these are bad: - negative opinion about person delivering message, we close our mind - positive opinion about person delivering message, we accept without vetting it</p></li>
+<li><p>Listen to the other side to look for things you agree with, when we do this, we learn things we otherwise wouldn’t have learned</p></li>
+<li><p>The only way to gain knowledge and approach truth is by examining every variety of opinion</p></li>
+<li><p>Disinterestedness: telling someone how a story ends encourages them to be resulters</p></li>
+<li><p>We don’t process information independent of the way we wish the world to be</p></li>
+<li><p>If the group is blind to the outcome, it produces higher fidelity evaluation of decision quality</p></li>
+<li><p>Organized skepticism: discussion among the group to encourage engagement and dissent</p></li>
+<li><p>Lean over backwards to figure out where we could be wrong</p></li>
+<li><p>Skepticism is about asking why things might <em>not be true</em> rather than why they <em>are true</em></p></li>
+</ul>
+</section>
+<section id="communication-with-a-trust-group" class="level3">
+<h3 class="anchored" data-anchor-id="communication-with-a-trust-group">Communication with a trust group</h3>
+<ul>
+<li><p>Express uncertainty: listen for things you agree with, state those and be specific, follow with and instead of but</p></li>
+<li><p><strong>and</strong> is an offer to contribute</p></li>
+<li><p><strong>but</strong> is a denial and repudiation of what came before</p></li>
+<li><p>Try using <strong>yes and</strong></p></li>
+</ul>
+</section>
+<section id="decision-making-help" class="level3">
+<h3 class="anchored" data-anchor-id="decision-making-help">Decision making help</h3>
+<ul>
+<li><p>Ask do you want to let it all out or are you thinking about what to do next?</p></li>
+<li><p>Focus on the future: we can identify the goals, our problem is the execution</p></li>
+</ul>
+</section>
+<section id="the-past" class="level3">
+<h3 class="anchored" data-anchor-id="the-past">The past</h3>
+<ul>
+<li><p>Rehashing our past can create defensiveness</p></li>
+<li><p>It’s hard to be defensive about something that hasn’t happened yet</p></li>
+<li><p>Have you thought about how you would get rid of all this drama in the future?</p></li>
+<li><p>Example: child with bad test scores - it must be hard to have a teacher like that, do you think there is anything you can do to improve your grade in the future?</p></li>
+</ul>
+</section>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<ul>
+<li><p>Consequences take awhile to show: what does the intern possibly know?</p></li>
+<li><p>It could take years for that intern to become a successful competitor before that mistake becomes obvious</p></li>
+<li><p>Improving decision quality is about increasing our chances of good outcomes, not guaranteeing them</p></li>
+</ul>
+</section>
+<section id="in-the-moment" class="level3">
+<h3 class="anchored" data-anchor-id="in-the-moment">In the moment</h3>
+<ul>
+<li><p>When we make in-the-moment decisions, and don’t ponder our past or future, we are more likely to be irrational and impulsive thinking about the future is remembering the future</p></li>
+<li><p>Temporal discounting - favor our present self at the expense of our future self</p></li>
+</ul>
+</section>
+<section id="regret" class="level3">
+<h3 class="anchored" data-anchor-id="regret">Regret</h3>
+<ul>
+<li><p>Move regret in front of our decisions: have a loss agreement</p></li>
+<li><p>Regret decision of losing lots of chips before you bought more</p></li>
+</ul>
+</section>
+<section id="think-like-this" class="level3">
+<h3 class="anchored" data-anchor-id="think-like-this">Think like this</h3>
+<ul>
+<li><p>Imagine how future-you is likely to feel about the decision or imagine how you feel today if past-you made the decision how would you feel if you made the decision 10 minutes ago? 10 months ago? 10 years ago?</p></li>
+<li><p>This does two things:</p></li>
+<li><p>1 - influences us to make a better decision</p></li>
+<li><p>2 - helps us treat ourselves more compassionately</p></li>
+</ul>
+</section>
+<section id="how-we-got-there" class="level3">
+<h3 class="anchored" data-anchor-id="how-we-got-there">How we got there</h3>
+<ul>
+<li><p>It doesn’t so much matter where we end up as how we got there</p></li>
+<li><p>Our feelings are not a reaction to the average of how things are going</p></li>
+<li><p>What is tilt? If you blow some recent event out of proportion and react in a drastic way, you’re on tilt</p></li>
+</ul>
+</section>
+<section id="long-view" class="level3">
+<h3 class="anchored" data-anchor-id="long-view">Long view</h3>
+<ul>
+<li><p>Long view thinking is more rational thinking</p></li>
+<li><p>Ulysses contract: past-us preventing present-us from doing something stupid</p></li>
+<li><p>Examples: take a ride share when going to a bar, automatic allocation into retirement fund</p></li>
+</ul>
+</section>
+<section id="what-is-wrong" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-wrong">What is wrong?</h3>
+<ul>
+<li><p>Wrong is a conclusion, not a rationale</p></li>
+<li><p>If we’re going to be self-critical, the focus should be on the lesson and how to calibrate future decisions</p></li>
+</ul>
+</section>
+<section id="benefits-of-scouting-the-future" class="level3">
+<h3 class="anchored" data-anchor-id="benefits-of-scouting-the-future">Benefits of scouting the future</h3>
+<ul>
+<li><p>1st: scenario planning reminds us that the future is inherently uncertain, more realistic</p></li>
+<li><p>2nd: we are better prepared for how we are going to respond to different outcomes that might result from our initial decision, anticipate positive or negative developments instead of being reactive</p></li>
+<li><p>3rd: being able to respond to the changing future is a good thing, being surprised by the changing future is not</p></li>
+<li><p>4th: less likely to fall for hindsight or resulting bias</p></li>
+</ul>
+</section>
+<section id="expected-value-example" class="level3">
+<h3 class="anchored" data-anchor-id="expected-value-example">Expected value: Example</h3>
+<ul>
+<li><p>$100,000 grant has 25% chance of winning (expected value is $100k * .25 = $25,000)</p></li>
+<li><p>$200,000 grant has 10% chance of winning (expected value is $20,000)</p></li>
+<li><p>$50,000 grant has 70% chance of winning (expected value is $35,000)</p></li>
+<li><p>This shows that the $50,000 grant is more valuable than the $100,000 and $200,000 grants</p></li>
+</ul>
+</section>
+<section id="backcasting" class="level3">
+<h3 class="anchored" data-anchor-id="backcasting">Backcasting</h3>
+<ul>
+<li><p>When we forecast the future, the present and the immediate future look large, anything beyond that loses focus</p></li>
+<li><p>Prospective hindsight, imagining that an event has already occurred, increases the ability to correctly identify reasons for future outcomes by 30%</p></li>
+</ul>
+</section>
+<section id="premortem" class="level3">
+<h3 class="anchored" data-anchor-id="premortem">Premortem</h3>
+<ul>
+<li><p>Premortem: imagine a negative outcome</p></li>
+<li><p>Backcasting is cheerleader, premortem is the heckler in the audience</p></li>
+<li><p>Incorporating negative visualization makes us more likely to achieve our goals</p></li>
+</ul>
+</section>
+<section id="negative-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="negative-visualization">Negative visualization</h3>
+<ul>
+<li><p>We’re more likely to execute goals if we think about negative futures</p></li>
+<li><p>Why?</p></li>
+<li><p>Because it helps us anticipate potential obstacles and improve our likelihood of succeeding</p></li>
+</ul>
+</section>
+<section id="tree-metaphor" class="level3">
+<h3 class="anchored" data-anchor-id="tree-metaphor">Tree metaphor</h3>
+<ul>
+<li><p>The trunk of the tree is the past</p></li>
+<li><p>Branches are potential futures</p></li>
+<li><p>When a potential future doesn’t happen, don’t chop it down (give the chainsaw a rest)</p></li>
+</ul>
+</section>
+<section id="outcomes-and-hindsight" class="level3">
+<h3 class="anchored" data-anchor-id="outcomes-and-hindsight">Outcomes and Hindsight</h3>
+<ul>
+<li><p>When you look into the past and only see what happened, it seems inevitable</p></li>
+<li><p>Hindsight bias is the enemy of probabilistic thinking</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">2022 | chris gallo | built using quarto</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/gallochris">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:chris@hellogallo.com">
+      <i class="bi bi-mailbox" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

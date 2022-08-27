@@ -1,0 +1,9 @@
+---
+listing:
+  contents: books
+  template: templates/list.ejs
+page-layout: full
+format:
+  html:
+    css: custom.scss
+---

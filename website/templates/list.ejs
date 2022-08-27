@@ -1,0 +1,18 @@
+```{=html}
+<div>
+<div>
+ <h1>Books</h1>
+ <p><a href="https://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdb0z9b/" target="_blank">Reading</a> is the <s>fucking</s>s warp whistle from Super Mario 3.</P>
+</div>
+
+<div>
+<% for (const item of items) { %>
+<div>
+<a href="<%- item.path %>">
+  <ul class="spread">
+    <li><%= item.title %></a> by <%= item.author %></li>
+  </ul>
+</div>
+<% } %>
+</div>
+```
