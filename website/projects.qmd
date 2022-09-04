@@ -6,6 +6,7 @@ title: "Projects"
 -   [caRolina](https://github.com/gallochris/R_scraps): sharing code while learning how to use [R](https://www.r-project.org/).
 -   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
+-   [CFB FGs](https://cfbfgs.fly.dev/): a Shiny app that tracks the play-by-play of field goals during the 2022 college football season. 
 
 ### books
 -   [book notes](/books.html): list of notes from books I've found useful. 
