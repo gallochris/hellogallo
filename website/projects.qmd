@@ -11,6 +11,5 @@ All data manipulation is done using [R programming language](https://www.r-proje
 -   [CFB win totals](https://blessyourchart.shinyapps.io/cfbwintotals/): a Shiny app to find the win totals of a team and its 2023 opponents. 
 -   [Dadgum Box Scores](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
--   [bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about Carolina sports.
 
 
