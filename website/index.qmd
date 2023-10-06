@@ -2,7 +2,9 @@
 title: "hello!"
 ---
 
-I'm Chris. I build, manage, and support software products. Today, I'm a a product manager at [Zipline](https://getzipline.com/). We help retail employees do their job. Over a quarter of a million people keep today on track by using Zipline.  
+My name is Chris. I build, manage, and support software products. 
+
+Today, I'm a product manager at [Zipline](https://getzipline.com/). We help retail employees do their job. Over a quarter of a million people keep today on track by using Zipline.  
 
 Outside of work, I enjoy analyzing and visualizing data to tell better stories. 
 
