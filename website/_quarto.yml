@@ -10,7 +10,7 @@ website:
       - href: projects.qmd
         text: projects
   page-footer: 
-    left: "2022 | chris gallo | built using quarto" 
+    left: "2023 | chris gallo | built using quarto" 
     right: 
       - icon: github
         href: https://github.com/gallochris

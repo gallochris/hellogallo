@@ -1,16 +1,16 @@
 ---
-title: "Projects"
+title: "Data Projects"
 ---
 
-### data 
--   [caRolina](https://github.com/gallochris/R_scraps): sharing code while learning how to use [R](https://www.r-project.org/).
--   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
+I analyze and visualize data to tell stories about college sports. My work has been mentioned in the [Washington Post](https://www.washingtonpost.com/sports/2023/08/29/college-football-made-for-tv-games/) and across [various podcasts](https://youtu.be/O02wsTykC54?feature=shared). 
+
+All data manipulation is done using [R programming language](https://www.r-project.org/). 
+
+-   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports.
+-   [FBS logs](https://fbs-logs.blessyourchart.com/): a project to track the duration of college football games for the 2023 season and analyze recent rule changes. 
+-   [CFB win totals](https://blessyourchart.shinyapps.io/cfbwintotals/): a Shiny app to find the win totals of a team and its 2023 opponents. 
+-   [Dadgum Box Scores](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
 -   [bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about Carolina sports.
 
-### books
--   [book notes](/books.html): list of notes from books I've found useful. 
 
-### archives
--   [blog.hotdogsandeggs.com](https://blog.hotdogsandeggs.com/): past writing and thinking, updated not so often any longer. 
--   [Dale Carnegie](/dale.html): all 30 principles from *How to Win Friends and Influence People*.
