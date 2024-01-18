@@ -9,16 +9,16 @@ website:
         text: home
       - href: projects.qmd
         text: projects
-  page-footer: 
-    left: "2023 | chris gallo | built using quarto" 
-    right: 
+  page-footer:
+    left: "2024 | chris gallo | built using quarto"
+    right:
       - icon: github
         href: https://github.com/gallochris
-      - icon: mailbox 
+      - icon: mailbox
         href: mailto:chris@hellogallo.com
 format:
   html:
-    theme: 
+    theme:
       - journal
       - custom.scss
     toc: true

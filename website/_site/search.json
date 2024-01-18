@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Data Projects",
     "section": "",
-    "text": "I analyze and visualize data to tell stories about college sports. My work has been featured in the Washington Post and across various podcasts.\nAll data manipulation is done using R programming language.\n\nBless your chart: a weekly data viz newsletter about college sports.\nFBS logs: a project to track the duration of college football games for the 2023 season and analyze recent rule changes.\nCFB win totals: a Shiny app to find the win totals of a team and its 2023 opponents.\nDadgum Box Scores: find any UNC men’s basketball box score since 2003-2004, and code for the archived Shiny app."
+    "text": "I analyze and visualize data to tell stories. All data manipulation is done using R programming language.\n\nActive projects\n\nBless your chart: a weekly data viz newsletter about college sports.\nCBB Conference Index: a Shiny app that surfaces college basketball standings and summarizes NET rankings with quadrant opportunities.\n\n\n\nArchived projects\n\nFBS logs: a project to track the duration of college football games for the 2023 season and analyze recent rule changes. This work was mentioned in the Washington Post.\nCFB win totals: a Shiny app to find the win totals of a team and its 2023 opponents.\nDadgum Box Scores: find any UNC men’s basketball box score since 2003-2004, and code for the archived Shiny app.\n\n\n\nViz porfolio\nI’m building out a portfolio of data visualizations. Here is an example creating a drive chart to summarize a college football game:"
   },
   {
     "objectID": "books/dark-horse/index.html",
@@ -207,7 +207,7 @@
     "href": "index.html",
     "title": "hello!",
     "section": "",
-    "text": "I’m Chris, a product manager at Zipline. I build, manage, and support software products that help retail employees do their job. Over a quarter of a million people keep today on track by using Zipline.\nOutside of work, I enjoy analyzing and visualizing data to tell better stories.\nCheck out my data projects ⟶\n\nI currently live and work remotely from North Carolina. You can find me on GitHub or send me an email at chris@hellogallo.com."
+    "text": "My name is Chris. I build, manage, and support software products.\nToday, I’m a product manager at Zipline. We help retail employees do their job. Over a quarter of a million people keep today on track by using Zipline.\nOutside of work, I enjoy analyzing and visualizing data to tell better stories.\nCheck out my data projects ⟶\n\nI currently live and work remotely from North Carolina. You can find me on GitHub or send me an email at chris@hellogallo.com."
   },
   {
     "objectID": "books/are-your-lights-on/index.html#preface",

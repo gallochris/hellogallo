@@ -2,14 +2,20 @@
 title: "Data Projects"
 ---
 
-I analyze and visualize data to tell stories about college sports. My work has been mentioned in the [Washington Post](https://www.washingtonpost.com/sports/2023/08/29/college-football-made-for-tv-games/) and across [various podcasts](https://youtu.be/O02wsTykC54?feature=shared). 
+I analyze and visualize data to tell stories. All data manipulation is done using [R programming language](https://www.r-project.org/).  
 
-All data manipulation is done using [R programming language](https://www.r-project.org/). 
+### Active projects
+-   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports. 
+-   [CBB Conference Index](https://blessyourchart.shinyapps.io/cbb_conf_index/): a Shiny app that surfaces college basketball standings and summarizes NET rankings with quadrant opportunities. 
 
--   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports.
--   [FBS logs](https://fbs-logs.blessyourchart.com/): a project to track the duration of college football games for the 2023 season and analyze recent rule changes. 
+### Archived projects
+-   [FBS logs](https://fbs-logs.blessyourchart.com/): a project to track the duration of college football games for the 2023 season and analyze recent rule changes. This work was mentioned in the [Washington Post](https://www.washingtonpost.com/sports/2023/08/29/college-football-made-for-tv-games/). 
 -   [CFB win totals](https://blessyourchart.shinyapps.io/cfbwintotals/): a Shiny app to find the win totals of a team and its 2023 opponents. 
 -   [Dadgum Box Scores](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
 
+### Viz porfolio 
 
+I'm building out a portfolio of data visualizations. Here is an example creating a drive chart to summarize a college football game: 
+
+![](drive_chart.jpeg){width=70% fig-alt="Drive chart for college football"}
