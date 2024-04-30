@@ -6,11 +6,13 @@ I analyze and visualize data to tell stories. All data manipulation is done usin
 
 ### Active projects
 -   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports. 
--   [CBB Conference Index](https://blessyourchart.shinyapps.io/cbb_conf_index/): a Shiny app that surfaces college basketball standings and summarizes NET rankings with quadrant opportunities. 
+
 
 ### Archived projects
+-   [WABStick](https://blessyourchart.shinyapps.io/WABStick/): a Shiny app to compare two teams competing in the 2023-24 men’s college basketball season using wins-above-bubble (WAB). 
+-   [CBB Conference Index](https://blessyourchart.shinyapps.io/cbb_conf_index/): a small app built with Shiny that surfaces college basketball standings and summarizes NET rankings with quadrant opportunities. 
 -   [FBS logs](https://fbs-logs.blessyourchart.com/): a project to track the duration of college football games for the 2023 season and analyze recent rule changes. This work was mentioned in the [Washington Post](https://www.washingtonpost.com/sports/2023/08/29/college-football-made-for-tv-games/). 
--   [CFB win totals](https://blessyourchart.shinyapps.io/cfbwintotals/): a Shiny app to find the win totals of a team and its 2023 opponents. 
+-   [CFB win totals](https://blessyourchart.shinyapps.io/cfbwintotals/): another Shiny app to find the win totals of a team and its 2023 opponents. 
 -   [Dadgum Box Scores](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
 
