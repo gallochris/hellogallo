@@ -2,7 +2,7 @@
 title: "Data Projects"
 ---
 
-I analyze and visualize data to tell stories. All data manipulation is done using [R programming language](https://www.r-project.org/).  
+I analyze and visualize data to answer and ask better questions. All data manipulation is done using [R programming language](https://www.r-project.org/).  
 
 ### Active projects
 -   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports. 
