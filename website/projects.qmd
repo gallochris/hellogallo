@@ -2,13 +2,15 @@
 title: "Data Projects"
 ---
 
-I analyze and visualize data to answer and ask better questions. All data manipulation is done using [R programming language](https://www.r-project.org/).  
+I analyze and visualize data to answer and ask better questions. Data manipulation is done using the [R programming language](https://www.r-project.org/) and SQL.  
 
 ### Active projects
 -   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports. 
+-   [BYC app](https://byc.evidence.app/): data site built with [evidence.dev](https://evidence.dev/) to complement the newsletter. 
 
 
 ### Archived projects
+-   [CBB Ref Logs](https://blessyourchart.shinyapps.io/cbb-ref-logs/): a Shiny dashboard that surfaces the travel schedules of men’s collegiate basketball referees during the 2023-24 season.
 -   [2024 Posit Table Contest submission](https://cjg.quarto.pub/bless-your-chart/posts/byc_posit_tbl_contest/table-contest-cg.html): static HTML table that shows the 2024 ACC Baseball regular season standings submitted as part of the [2024 Posit Table Contest](https://posit.co/blog/announcing-the-2024-table-contest/).
 -   [WABStick](https://blessyourchart.shinyapps.io/WABStick/): a Shiny app to compare two teams competing in the 2023-24 men’s college basketball season using wins-above-bubble (WAB). 
 -   [CBB Conference Index](https://blessyourchart.shinyapps.io/cbb_conf_index/): a small app built with Shiny that surfaces college basketball standings and summarizes NET rankings with quadrant opportunities. 
@@ -17,8 +19,4 @@ I analyze and visualize data to answer and ask better questions. All data manipu
 -   [Dadgum Box Scores](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004, and [code](https://github.com/gallochris/dadgum-shiny) for the archived Shiny app.
 
-### Viz porfolio 
 
-I'm building out a portfolio of data visualizations. Here is an example creating a drive chart to summarize a college football game: 
-
-![](drive_chart.jpeg){width=70% fig-alt="Drive chart for college football"}
