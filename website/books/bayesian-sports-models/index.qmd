@@ -1,0 +1,62 @@
+---
+title: "Bayesian Sports Models in R"
+author: "Andrew Mack"
+format: html
+---
+
+### Bayesian reasoning
+
+- Learn from experience and make decisions in face of uncertainty 
+
+- Three elements: prior belief, new evidence, updated belief
+
+### Basic probability concepts
+
+- P (A): probability of event A occuring
+
+- P (Ac): complement, probability of event A not occurring
+
+-  P(A ∩ B): intersection, probability of event A _and_ event B occurring 
+
+- P (A u B): union, probability of event A _or_ event B occurring
+
+- P (A | B): conditional, probability event A occurs given event B 
+
+### Probability rules 
+
+- Non-negative rule: probability of any event is a non-negative number
+
+- Certainty rule: probability of a certain event is 1
+
+- Complement rule: probability of of an event _not_ occurring is 1 minus the probability of the event occurring
+
+- Addition rule: probability of A or B occurring is the sum of their individual probabilities minus the probability of of their intersection
+
+- Conditional probability: probability of an event occurring given another events has already occurred 
+
+- Multiplication rule: probability of events A _and_ B occurring, multiply two independent events to get joint probability 
+
+- Total probability rule: probability of an event that can be broken down into several mutually exclusive events
+
+### Bayes rule 
+
+- P(B|A) = [P(A|B) * P(A)] / P(B)
+
+- Updated belief or posterior probability: P(A|B)
+
+- New evidence or likelihood: P(B|A)
+
+- Prior belief or prior: P(B)
+
+- Marginal likelihood: P(A)
+
+### Frequentist and Bayesian approaches
+
+- Frequentist: long-run frequency, no priors, confidence intervals
+
+- Bayesian: degree of belief, use priors, posterior distributions 
+
+### Probability distributions
+
+- Discrete distribution: 
+
