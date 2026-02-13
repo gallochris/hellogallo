@@ -6,7 +6,7 @@ My name is Chris. I build, manage, and support software products.
 
 Today, I'm a technical account manager at [Zipline](https://getzipline.com/). Over a quarter of a million retail employees keep today on track by using Zipline.
 
-Outside of work, I enjoy analyzing and visualizing data to answer questions.
+Outside of work, I enjoy analyzing and visualizing data to ask better questions.
 
 Check out my [data projects &#10230;](projects.html)  
 

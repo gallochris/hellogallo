@@ -5,8 +5,9 @@ title: "Data Projects"
 I analyze and visualize data to answer and ask better questions. Data manipulation is done using the [R programming language](https://www.r-project.org/) and SQL.  
 
 ### Active projects
--   [Bless your chart](https://blessyourchart.substack.com/): a weekly data viz newsletter about college sports. 
+-   [Bless your chart](https://blessyourchart.substack.com/): a weekly-ish data viz newsletter about college sports. 
 -   [CFB TXT](https://cfbtxt.com): a fast, plain-text site that surfaces 2025 college football data.
+-   [WAB Watch](https://wabwatch.com): a plain-text static site to track WAB (wins-above-bubble) over the course of the men's college basketball season. 
 
 
 ### Archived projects
