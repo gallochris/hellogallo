@@ -2,9 +2,17 @@
 $navbar-bg: #4ea1d3;
 $font-color: #454552;
 $body-bg: #d8e9ef;
-$link-color: #4ea1d3 !default;
+$link-color: #17557f;
+$link-hover-color: #0d3a58;
 
+/*-- scss:rules --*/
 .navbar-brand {text-transform: lowercase !important};
 .nav-footer {border-top: 2px solid #4ea1d3 !important};
 .a {font-weight: bold !important}
 .spread {line-height: 1rem;}
+
+// Links: deeper blue for contrast on the light-blue body.
+// Base underline is inherited from the theme; just darken on hover.
+a:hover {
+  color: $link-hover-color;
+}

@@ -4,12 +4,14 @@ title: "hello!"
 
 My name is Chris. I build, manage, and support software products. 
 
-Today, I'm a technical account manager at [Zipline](https://getzipline.com/). Over a quarter of a million retail employees keep today on track by using Zipline.
+Today, I'm an integration engineer at [Tern](https://tern.travel/), the operating platform that powers travel agencies and advisors.
 
-Outside of work, I enjoy analyzing and visualizing data to ask better questions.
+Outside of work, I like digging into data to ask better questions.
 
 Check out my [data projects &#10230;](projects.html)  
 
 * * * 
 
 I currently live and work remotely from Chapel Hill, North Carolina. You can find me on [GitHub](https://github.com/gallochris) or send me an email at [chris@hellogallo.com](mailto: chris@hellogallo.com). 
+
+

@@ -2,15 +2,16 @@
 title: "Data Projects"
 ---
 
-I analyze and visualize data to answer and ask better questions. Data manipulation is done using the [R programming language](https://www.r-project.org/) and SQL.  
+I analyze and visualize data to ask better questions. Data manipulation is done using the [R programming language](https://www.r-project.org/), SQL, and Ruby on Rails.   
 
 ### Active projects
 -   [Bless your chart](https://blessyourchart.substack.com/): a weekly-ish data viz newsletter about college sports. 
--   [CFB TXT](https://cfbtxt.com): a fast, plain-text site that surfaces 2025 college football data.
--   [WAB Watch](https://wabwatch.com): a plain-text static site to track WAB (wins-above-bubble) over the course of the men's college basketball season. 
+-   [When UNC plays](https://whenuncplays.com/): a tiny Rails app to list of UNC athletic events across all sports for the 2026-27 athletic calendar year.
+-   [CFB TXT](https://cfbtxt.com): a fast, plain-text site that surfaces 2026 college football data.
 
 
 ### Archived projects
+-   [WAB Watch](https://wabwatch.com): a plain-text static site to track WAB (wins-above-bubble) over the course of the 2025-26 men's college basketball season. 
 -   [BYC app](https://byc.evidence.app/): data site built with [evidence.dev](https://evidence.dev/) to complement the newsletter. 
 -   [CBB Ref Logs](https://blessyourchart.shinyapps.io/cbb-ref-logs/): a Shiny dashboard that surfaces the travel schedules of men’s collegiate basketball referees during the 2023-24 season.
 -   [2024 Posit Table Contest submission](https://cjg.quarto.pub/bless-your-chart/posts/byc_posit_tbl_contest/table-contest-cg.html): static HTML table that shows the 2024 ACC Baseball regular season standings submitted as part of the [2024 Posit Table Contest](https://posit.co/blog/announcing-the-2024-table-contest/).
